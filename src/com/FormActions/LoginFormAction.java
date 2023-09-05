@@ -17,7 +17,7 @@ import javax.swing.JTextField;
 
 public class LoginFormAction extends javax.swing.JFrame {
 
-    private final String Database = "jdbc:sqlite:/C:\\Users\\Mario Inguito\\Documents\\NetBeansProjects\\CCEFinalProject\\src\\com\\Database\\Database.db";
+    private final String Database = new DatabaseLocation().getDatabaseLocation();
     private final AdminDashboard AdminDashboard = new AdminDashboard();
     private final EmployeeDashboard EmployeeDashboard = new EmployeeDashboard();
 
